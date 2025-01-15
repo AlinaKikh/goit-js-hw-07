@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+.item {
+padding: 24px;
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 16px;
+border-radius: 8px;
+padding: 16px;
+width: 392px;
+height: 264px;
+background-color: #F6F6FE;
+}
+
+/* ----------List section --------- */
+/* .header {
+font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 24px;
+line-height: 133%;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+
+.list-item {
+padding-bottom: 8px;
+border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+margin-left: 16px;
+margin-top: 8px;
+flex-direction: column;
+flex-wrap: 8px;
+justify-content: center;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #2e2f42;
+} */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+}
